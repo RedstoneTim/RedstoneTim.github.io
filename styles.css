@@ -1,0 +1,55 @@
+* {
+	font-family: verdana;
+	margin: 0;
+	background-color: Black;
+	color: White;
+}
+
+header {
+	text-align: center;
+	padding: 20px;
+}
+
+h1 {
+	font-family: arial;
+}
+
+section {
+	margin: 50px;
+}
+
+.navbar {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	margin-left: 0;
+	margin-right: 0;
+	overflow: hidden;
+	background-color: SlateBlue;
+}
+
+.navbar-item {
+	float: left;
+}
+
+.navbar-item a {
+	display: block;
+	color: LightGrey;
+	text-align: center;
+	padding: 14px 18px;
+	text-decoration: none;
+	background-color: SlateBlue;
+}
+
+.navbar-item a:hover {
+	color: #e6e6e6;
+}
+
+.navbar-item-main a {
+	font-size: 110%;
+	color: White;
+}
+
+.navbar-item-selected a {
+	color: White;
+}
