@@ -7,6 +7,7 @@
 		<link rel="stylesheet" href="styles.css">
 		<meta name="author" content="RedstoneTim">
 		<link rel="icon" type="image/png" href="icon.png">
+		<script src="navbar.js"></script>
 	</head>
 	
 	<body>
@@ -15,13 +16,16 @@
 		</header>
 		
 		<nav>
-			<ul class="navbar">
+			<ul class="navbar" id="navbar">
 				<li class="navbar-item navbar-item-main"><a href="index.html">RedstoneTim's website</a></li>
 				<li class="navbar-item navbar-item-selected"><a href="programming.html">Programming</a></li>
 				<li class="navbar-item"><a href="games.html">Games</a></li>
 				<li class="navbar-item"><a href="cubing.html">Cubing</a></li>
 				<li class="navbar-item"><a href="contact.html">Contact</a></li>
 				<li class="navbar-item"><a href="about.html">About</a></li>
+				<a href="javascript:void(0);" class="icon" onclick="adjustNavbar()">
+					<i></i>
+				</a>
 			</ul>
 		</nav>
 	
