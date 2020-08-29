@@ -5,13 +5,33 @@
 	color: White;
 }
 
+a {
+	text-decoration: none;
+	color:  #a6a6a6;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
 header {
 	text-align: center;
 	padding: 20px;
+	font-family: arial;
+	font-size: 32px;
+	font-weight: bold;
 }
 
 h1 {
-	font-family: arial;
+	font-size: 18.72px;
+}
+
+h2 {
+	font-size: 16px;
+}
+
+h3 {
+	font-size: 13.28px;
 }
 
 section {
@@ -25,7 +45,7 @@ section {
 	margin-left: 0;
 	margin-right: 0;
 	overflow: hidden;
-	background-color: SlateBlue;
+	background-color: MediumSlateBlue;
 }
 
 .navbar-item {
@@ -38,7 +58,7 @@ section {
 	text-align: center;
 	padding: 14px 18px;
 	text-decoration: none;
-	background-color: SlateBlue;
+	background-color: MediumSlateBlue;
 }
 
 .navbar-item a:hover {

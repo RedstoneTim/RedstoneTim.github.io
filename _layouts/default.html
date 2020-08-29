@@ -6,15 +6,16 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<link rel="stylesheet" href="/assets/css/styles.css">
 		<meta name="author" content="RedstoneTim">
-		<link rel="icon" type="image/png" href="icon.png">
+		<link rel="icon" type="image/png" href="/icon.png">
 	</head>
 	
 	<body>
-		{% for item in site.data.navigation %}{% if page.url == item.link %}<header><h1>{{item.name}}</h1></header>{% endif %}{% endfor %}
+		{% for item in site.data.navigation %}{% if page.parent == item.name %}<header>{{item.name}}</header>{% endif %}{% endfor %}
 		
 		{% include navigation.html %}
 		
 		<section>
+			{% for item in site.data.navigation %}{% if page.parent == item.name and page.url != item.link %}lol{% endif %}{% endfor %}
 			{{content}}
 		</section>
 	</body>
