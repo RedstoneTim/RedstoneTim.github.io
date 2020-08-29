@@ -1,2 +1,2 @@
 # RedstoneTim.github.io
-Code for my website
+Code for my website: https://redstonetim.github.io/
