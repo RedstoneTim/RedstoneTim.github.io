@@ -13,9 +13,9 @@
 		{% for item in site.data.navigation %}{% if page.parent == item.name %}<header>{{item.name}}</header>{% endif %}{% endfor %}
 		
 		{% include navigation.html %}
-		
+	
 		<section>
-			{% for item in site.data.navigation %}{% if page.parent == item.name and page.url != item.link %}lol{% endif %}{% endfor %}
+			{% for item in site.data.navigation %}{% if page.parent == item.name and page.url != item.link %} <a href="{{item.link}}">Back to {{item.name}}</a><br><br> {% endif %}{% endfor %}
 			{{content}}
 		</section>
 	</body>
