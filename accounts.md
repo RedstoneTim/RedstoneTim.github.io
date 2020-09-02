@@ -4,7 +4,6 @@ parent: Accounts
 ---
 The following is a list of accounts I own, ordered by their purpose.  
 Most of my accounts should be listed here, so you can usually assume that everything else doesn't belong to me.  
-<br><br>
 
 # General
 * Discord: RedstoneTim/5144
@@ -14,24 +13,17 @@ Most of my accounts should be listed here, so you can usually assume that everyt
 * <a href="https://pastebin.com/u/TimRS" target="_blank">Pastebin</a>
 * <a href="https://twitter.com/Redstone_Tim" target="_blank">Twitter</a>
 
-
-<br>
-
 # Programming
 * <a href="https://github.com/RedstoneTim" target="_blank">GitHub</a>
 * <a href="https://www.openprocessing.org/user/105993/" target="_blank">OpenProcessing</a>
 * <a href="https://redstonetim.itch.io/" target="_blank">itch.io</a>
 * <a href="https://gitlab.com/RedstoneTim" target="_blank">GitLab</a>
 
-<br>
-
 # Cubing
 * <a href="https://www.speedsolving.com/members/redstonetim.50970/" target="_blank">SpeedSolving.com</a>
 * <a href="https://www.speedsolving.com/wiki/index.php/User:RedstoneTim" target="_blank">SpeedSolving.com Wiki</a>
 * <a href="https://twistypuzzles.com/forum/memberlist.php?mode=viewprofile&u=12075" target="_blank">TwistyPuzzles.com</a>
 * <a href="https://forum.speedcube.de/member.php?action=profile&uid=4386" target="_blank">SpeedCube.de</a>
-
-<br>
 
 # Minecraft
 * <a href="https://www.curseforge.com/members/redstone_tim" target="_blank">CurseForge</a>
