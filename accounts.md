@@ -1,6 +1,6 @@
 ---
 layout: default
-parent: Accounts
+title: Accounts
 ---
 The following is a list of accounts I own, ordered by their purpose.  
 Most of my accounts should be listed here, so you can usually assume that everything else doesn't belong to me.  

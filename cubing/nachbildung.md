@@ -1,8 +1,8 @@
 ---
 layout: default
-parent: Cubing
+title: Nachbildung
 ---
-![Screenshot of the program](/assets/images/Nachbildung.png)
+![Screenshot of the program](/assets/images/nachbildung.png)
 
 Nachbildung is a program I coded in the summer of 2019, using Kotlin and JavaFX.  
 Its goal is to generate statistics and exports for reconstructions, which at the time was still done using hardcoded google sheets.  

@@ -1,7 +1,7 @@
 <nav>
 	<ul class="navbar" id="navbar">
 		{% for item in site.data.navigation %}
-			<li class="navbar-item {% if item.link == "/" %}navbar-item-main{% endif %}{% if page.parent == item.name %} navbar-item-selected{% endif %}"><a href="{{ item.link }}">{{ item.name }}</a></li>
+			<li class="navbar-item {% if item.link == "/" %}navbar-item-main{% endif %}{% if page.url == item.link %} navbar-item-selected{% endif %}"><a href="{{ item.link }}">{{ item.name }}</a></li>
 		{% endfor %}
 	</ul>
 </nav>

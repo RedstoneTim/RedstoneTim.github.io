@@ -1,6 +1,6 @@
 ---
 layout: default
-parent: Programming
+title: Small Games
 ---
 Here are some smaller games I created:  
 

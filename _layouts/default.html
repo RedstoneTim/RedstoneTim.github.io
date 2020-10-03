@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>RedstoneTim's website</title>
+		<title>{{ page.title }}</title>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<link rel="stylesheet" href="/assets/css/styles.css">
@@ -10,12 +10,14 @@
 	</head>
 	
 	<body>
-		{% for item in site.data.navigation %}{% if page.parent == item.name %}<header>{{item.name}}</header>{% endif %}{% endfor %}
+		<header>{{ page.title }}</header>
 		
 		{% include navigation.html %}
 	
 		<section>
-			{% for item in site.data.navigation %}{% if page.parent == item.name and page.url != item.link %} <a href="{{item.link}}">Back to {{item.name}}</a><br><br> {% endif %}{% endfor %}
+			{% for item in site.data.navigation %}
+				{% if item.dir == page.dir %} <a href="{{item.link}}">Back to {{item.name}}</a><br><br> {% endif %}
+			{% endfor %}
 			{{content}}
 		</section>
 	</body>

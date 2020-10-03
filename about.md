@@ -1,5 +1,5 @@
 ---
 layout: default
-parent: About
+title: About
 ---
 I'm Tim, a male from Germany.

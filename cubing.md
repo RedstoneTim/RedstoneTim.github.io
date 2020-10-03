@@ -1,16 +1,15 @@
 ---
 layout: default
-parent: Cubing
+title: Cubing
 ---
 One of my hobbies is cubing, which is all about solving puzzles.  
 
 # Resources
-* [Example solves](cubing/example_solves.html)
-* [Reconstructions](cubing/reconstructions.html)
+* [Example solves](https://gist.github.com/RedstoneTim/650d649b92260a1f9f459fa5b7b636cc){:target="_blank"}
+* [Reconstructions](https://gist.github.com/RedstoneTim/4869f3be76e89858c5748ce9712634ca){:target="_blank"}
 
-## Methods
+# Methods
 * [HD method](cubing/hd_method.html)
 
 # Programs
-* [Nachbildung](cubing/nachbildung.html)
-* [WCA ID Records](cubing/wca_id_records.html)
+{% include cubing_programs.html %}
