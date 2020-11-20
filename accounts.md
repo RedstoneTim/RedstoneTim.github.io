@@ -1,7 +1,3 @@
----
-layout: default
-title: Accounts
----
 The following is a list of accounts I own, ordered by their purpose.  
 Most of my accounts should be listed here, so you can usually assume that everything else doesn't belong to me.  
 
@@ -30,3 +26,5 @@ Most of my accounts should be listed here, so you can usually assume that everyt
 * <a href="https://forums.minecraftforge.net/profile/117462-redstonetim/" target="_blank">MinecraftForge Forums</a>
 * <a href="https://www.planetminecraft.com/member/redstonetim/" target="_blank">Planet Minecraft</a>
 * <a href="https://www.minecraftforum.net/members/RedstoneTim" target="_blank">Minecraft Forum</a>
+
+TODO: move this to footer

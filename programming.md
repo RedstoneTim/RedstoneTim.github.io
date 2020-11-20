@@ -12,8 +12,7 @@ and finally learned [Kotlin](https://kotlinlang.org/){:target="_blank"} in 2019,
 * [A list of small games I coded](programming/small_games.html)
 
 ## Minecraft Mods
-* [Hunter's Nightmare](programming/hunters_nightmare.html)
-* [A Swamp's Curse](programming/a_swamps_curse.html)
+{% include minecraft_mods.html %}
 
 ## Cubing Programs
 {% include cubing_programs.html %}

@@ -1,18 +1,12 @@
 - name: RedstoneTim's website
   link: /
-  dir: /website/
 - name: Blog
   link: /blog.html
-  dir: 
 - name: Programming
   link: /programming.html
-  dir: /programming/
+- name: Minecraft
+  link: /minecraft.html
 - name: Cubing
   link: /cubing.html
-  dir: /cubing/
-- name: Accounts
-  link: /accounts.html
-  dir: /accounts/
 - name: About
   link: /about.html
-  dir: /about/

@@ -1,18 +1,7 @@
 body {
 	font-family: verdana;
 	margin: 0;
-	background-color: Black;
-	color: White;
-}
-
-a {
-	color: White;
-	text-decoration: none;
-	text-decoration: underline;
-}
-
-a:hover {
-	background: MidnightBlue;
+	background-color: AntiqueWhite;
 }
 
 header {
@@ -55,17 +44,4 @@ h3 {
 
 section {
 	margin: 50px;
-}
-
-::-moz-selection {
-  background: MediumSeaGreen;
-}
-
-::selection {
-  background: MediumSeaGreen;
-}
-
-.gist * {
-	background: black;
-	color: White;
 }

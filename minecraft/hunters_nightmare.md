@@ -2,9 +2,9 @@
 layout: default
 title: Hunter's Nightmare
 ---
-<img src="/assets/images/hunters_nightmare.png" alt="The logo of the mod" align="right">
+{% include image.html link="hunters_nightmare" desc="The logo of the mod" %}
 
-Hunter's Nightmare (formerly known as [Hunter's Dream](https://www.curseforge.com/minecraft/mc-mods/huntersdream){:target="_blank"}) is a Minecraft mod that I've been coding in a small team called ([TheBlockBox](https://github.com/TheBlockBox){:target="_blank"}) since Summer 2018.
+Hunter's Nightmare (formerly known as [Hunter's Dream](https://www.curseforge.com/minecraft/mc-mods/huntersdream){:target="_blank"}) is a Minecraft mod that I've been coding in a small team called [TheBlockBox](theblockbox.html) since Summer 2018.
 
 # Features
 Hunter's Nightmare runs on 1.12.2 and a 1.15.2 version is currently in development.  
@@ -16,9 +16,7 @@ From the CurseForge description:
 # History
 Hunter's Nightmare is the first serious project I coded for. I first found out about it on MinecraftForum, when I thought that I could try to help someone code a "small" mod.  
 There, I stumbled upon [this post](https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/minecraft-mods/requests-ideas-for-mods/2906874-modification-idea-supernatural-entities-mod-sem){:target="_blank"} (it's sadly not available anymore) from June 23rd, 2018.  
-The idea about supernatural mobs seemed kinda interesting and I thought I'd look a bit more into it, so I joined the discord server (my first reply was asking for a new link, since the given one was dead, lol),
-where I met [RebelT](https://github.com/PixelEyeStudios){:target="_blank"} and [TheGamingLord](https://github.com/TheGamingLord){:target="_blank"}.
-…
+The idea of supernatural mobs seemed kinda interesting and I thought I'd look a bit more into it, so I joined the discord server and that way, I got into all of this.
 
 # Links
 * [CurseForge page](https://www.curseforge.com/minecraft/mc-mods/hunters-nightmare){:target="_blank"}

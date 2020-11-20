@@ -15,10 +15,11 @@
 		{% include navigation.html %}
 	
 		<section>
-			{% for item in site.data.navigation %}
-				{% if item.dir == page.dir %} <a href="{{item.link}}">Back to {{item.name}}</a><br><br> {% endif %}
-			{% endfor %}
 			{{content}}
 		</section>
+		
+		<footer>
+			{% include footer.html %}
+		</footer>
 	</body>
 </html>
