@@ -1,5 +1,4 @@
 ---
-layout: default
 title: WCA ID Records
 ---
 This is a small (not necessarily well coded) program which shows you the results of cubers with a specific WCA ID year. It requires Java to run and uses JavaFX (so you don't need to and actually can't use the console).<br>

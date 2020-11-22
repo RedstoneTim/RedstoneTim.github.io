@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Hunter's Nightmare
 ---
 {% include image.html link="hunters_nightmare" desc="The logo of the mod" %}

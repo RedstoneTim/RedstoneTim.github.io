@@ -1,5 +1,4 @@
 ---
-layout: default
 title: TheBlockBox
 ---
 {% include image.html link="theblockbox" desc="The logo of TheBlockBox" %}

@@ -1,7 +1,3 @@
----
-layout: default
-title: Small Games
----
 Here are some smaller games I created:  
 
 # OpenProcessing sketches

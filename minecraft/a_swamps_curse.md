@@ -1,5 +1,4 @@
 ---
-layout: default
 title: A Swamp's Curse
 ---
 {% include image.html link="a_swamps_curse" desc="The logo of the mod" %}

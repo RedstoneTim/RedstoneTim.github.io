@@ -1,9 +1,8 @@
 ---
-layout: default
-title: HD method
+title: HD Method
 ---
-# HD method
-The HD method has its own [SpeedSolving Wiki](https://www.speedsolving.com/wiki/index.php/HD_Method){:target="_blank"} and a [SpeedSolving Thread by Neuro](https://www.speedsolving.com/threads/hd-method-2x2-alternative-to-cll.65442/){:target="_blank"}.  
+# HD Method
+The HD Method has its own [SpeedSolving Wiki](https://www.speedsolving.com/wiki/index.php/HD_Method){:target="_blank"} and a [SpeedSolving Thread by Neuro](https://www.speedsolving.com/threads/hd-method-2x2-alternative-to-cll.65442/){:target="_blank"}.  
 [This google document by Neuro fully explains standard HD.](https://docs.google.com/document/d/14Er3Jl9AHy4es-6Sz9gU0RYgDmuBR1bFIUN-VThHAwc){:target="_blank"}  
 [Sue Doenim also created a SpeedSolving thread comparing HD-G and EG.](https://www.speedsolving.com/threads/hd-vs-eg-2x2-method-showdown.67124/){:target="_blank"}  
 Proposed by Van Higgs (Thermex) and Joel Demars (Sue Doenim) (-> Higgs-Demars), helped by Max Garza (Neuro) and Johnathan Lewis (Shiv3r). 

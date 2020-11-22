@@ -1,16 +1,25 @@
+{%- capture rawtitle -%}
+	{% if page.title == null or page.title == "" %}
+		{%- assign words = page.name | split: "." | first | replace: "_", " " | split: " " -%}
+		{% for word in words %}{{ word | capitalize }} {% endfor %}
+	{% else %}
+		{{ page.title }}
+	{% endif %}
+{%- endcapture -%}
+{%- assign title = rawtitle | strip -%}
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>{{ page.title }}</title>
+		<title>{{ title }}</title>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<link rel="stylesheet" href="/assets/css/styles.css">
-		<meta name="author" content="RedstoneTim">
-		<link rel="icon" type="image/png" href="/icon.png">
+		<meta name="author" content="{{ page.author }}">
+		<link rel="icon" type="image/png" href="/assets/images/icon.png">
 	</head>
 	
 	<body>
-		<header>{{ page.title }}</header>
+		<header>{{ title }}</header>
 		
 		{% include navigation.html %}
 	

@@ -1,7 +1,3 @@
----
-layout: default
-title: Undercover Witches
----
 {% include image.html link="undercover_witches" desc="The logo of the mod" %}
 
 Undercover Witches is my second [attempt](a_swamps_curse.html) at coding a mod for Spooky Jam, this time it was for [Spooky Jam 2020](https://github.com/MinecraftModDevelopment/MMD-Site/blob/master/docs/events/spooky_jam_2020.md){:target="_blank"}.

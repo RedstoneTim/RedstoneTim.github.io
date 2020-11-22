@@ -1,7 +1,3 @@
----
-layout: default
-title: Nachbildung
----
 ![Screenshot of the program](/assets/images/nachbildung.png)
 
 Nachbildung is a program I coded in the summer of 2019, using Kotlin and JavaFX.  

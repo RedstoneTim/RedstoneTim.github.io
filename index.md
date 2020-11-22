@@ -1,5 +1,4 @@
 ---
-layout: default
 title: RedstoneTim's website
 ---
 Welcome to my website!  
