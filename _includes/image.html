@@ -1,1 +1,1 @@
-<img src="/assets/images/{{ include.link }}.png" alt="{{ include.desc }}" align="right" width=200 height=200>
+<img src="/assets/images/{{ include.link }}.png" align="right" width={{ include.width | default: 200}} height={{ include.height | default: 200}}{% if include.desc %} alt="{{ include.desc }}"{% endif %}{% if include.longdesc %} longdesc="{{ include.longdesc }}"{% endif %}>
