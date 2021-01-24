@@ -127,6 +127,14 @@ https://cdn.discordapp.com/attachments/689187319034544180/774300685536722954/cry
 
 "I like how I have 3 different user names for the quotes from our readers thing."
 - 𝝅 (𝝅'#0827)
+
+"Your
+You
+Post
+That on
+Fanfic website
+Or else"
+- Rouxviewer
 ```
 
 # Sources
