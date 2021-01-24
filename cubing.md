@@ -14,4 +14,3 @@ One of my hobbies is cubing, which is about solving puzzles.
 # ZMS stuff
 * [ZZ Stories](cubing/zz_stories.html)
 * [The Great Reconstructions Debate](https://youtu.be/WDihPW9o5-s){:target="_blank"}
-* [(Almost) everything is CFOP](cubing/everything_is_cfop.html)

@@ -124,6 +124,9 @@ https://cdn.discordapp.com/attachments/689187319034544180/774300685536722954/cry
 
 "Is this written by an AI or what"
 - yoruba
+
+"I like how I have 3 different user names for the quotes from our readers thing."
+- 𝝅 (𝝅'#0827)
 ```
 
 # Sources
