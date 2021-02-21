@@ -154,5 +154,9 @@ Or else"
 * [The Great Reconstructions Debate](https://youtu.be/WDihPW9o5-s){:target="_blank"} (Part 8 and higher)
 * [Merry Christmas without copypasting](https://discord.com/channels/455707295205294081/455708462870167556/791747705457737758){:target="_blank"} (Part 9 and higher)
 * [Almost everything is CFOP](https://discord.com/channels/455707295205294081/455708462870167556/793179723450548255){:target="_blank"} (Part 9 and higher)
+* [Do I actually love unsubscribes?](https://discord.com/channels/455707295205294081/455708462870167556/805213871685107781){:target="_blank"} (Part 9 and higher)
+* [HOW TO GET SUB 8 WITH ZZ](https://docs.google.com/document/d/1raFgk1M5TReCsLo53r0XRQf98msxTTeOwnlzUJ7xDD0){:target="_blank"} (Part 9 and higher)
+* [HOW TO GET SUB 12 WITH ZZ](https://docs.google.com/document/d/1a7yqlGhfE2nESAuO-uNZvMEJpDW-sAiB_-NMTylEPJA){:target="_blank"} (Part 9 and higher)
+* [The sub 10 curse](https://discord.com/channels/455707295205294081/689187319034544180/811879066340687893){:target="_blank"} (Part 9 and higher)
 
 [Everything put together into one file](https://pastebin.com/gE8J93VQ){:target="_blank"}
