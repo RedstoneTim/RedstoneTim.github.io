@@ -27,7 +27,7 @@ A small JS program for generating alg sheets in Markdown.
 
 <script>
 const editor = new JSONEditor(document.getElementById("editor"), {
-schema: {title:"Algorithm Sheet",type:"object",required:["title"],definitions:{algset:{type:"object",title:"Subset",properties:{title:{type:"string",title:"Name", default:"Name"},description:{type:"string",title:"Description"},imageLink:{type:"string",title:"Image link"},algs:{type:"array",title:"Algs",items:{anyOf:[{type:"string",title:"Single algorithm"},{type:"array",title:"Multiple algorithms",items:{type:"string",title:"Single algorithm"}},{"$ref":"#/definitions/algset"}]}}},required:["title","algs"]}},properties:{title:{type:"string",title:"Title",default:"Title"},description:{type:"string",title:"Description"},imageLink:{type:"string",title:"Image link",default:"http://www.cubing.net/api/visualcube/?view=plan&fmt=svg&case=$ALG"},algs:{type:"array",title:"Algorithms",items:{"$ref":"#/definitions/algset"}},end:{type:"string",title:"End"},footer:{type:"string",title:"Footer"},author:{type:"string",title:"Author"}}},
+schema: {title:"Algorithm Sheet",type:"object",required:["title"],definitions:{algset:{type:"object",title:"Subset",properties:{title:{type:"string",title:"Name", default:"Name"},description:{type:"string",title:"Description"},imageLink:{type:"string",title:"Image link"},algs:{type:"array",title:"Algs",items:{anyOf:[{type:"string",title:"Single algorithm"},{type:"array",title:"Multiple algorithms",items:{type:"string",title:"Single algorithm"}},{"$ref":"#/definitions/algset"}]}}},required:["title","algs"]}},properties:{title:{type:"string",title:"Title",default:"Title"},description:{type:"string",title:"Description"},imageLink:{type:"string",title:"Image link",default:"http://www.cubing.net/api/visualcube/?view=plan&fmt=svg&case=$ALG"},algs:{type:"array",title:"Algorithms",items:{"$ref":"#/definitions/algset"}},end:{type:"string",title:"End"},footer:{type:"string",title:"Footer"},author:{type:"string",title:"Author"},bold:{type:"boolean",title:"Bolden the first algorithm"}}},
 disable_edit_json: true,
 disable_properties: true,
 array_controls_top: true
@@ -54,4 +54,4 @@ function convert(file) {
 
 ---
 
-Made using [JSON Editor](https://github.com/json-editor/json-editor) and [liquidjs](https://liquidjs.com/)
+Made using [JSON Editor](https://github.com/json-editor/json-editor){:target="_blank"} and [liquidjs](https://liquidjs.com/){:target="_blank"}.

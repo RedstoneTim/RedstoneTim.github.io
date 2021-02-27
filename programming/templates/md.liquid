@@ -2,7 +2,7 @@
 {% capture newLine %}
 {% endcapture %}
 {%- if description -%}{{ description }}{%- endif -%}
-{% for alg in algs %}{%- include 'algsetmd.liquid', algset: alg, depth: 2, useBr: false, imageLink: imageLink -%}
+{% for alg in algs %}{%- include 'algsetmd.liquid', algset: alg, depth: 2, useBr: false, imageLink: imageLink, bold: bold -%}
 {% endfor %}{% if end %}
 {{ end }}{{ newLine }}{% endif %}{% if footer or author %}
 ---

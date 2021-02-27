@@ -3,9 +3,9 @@
 {% for i in (1..depth) %}#{% endfor %} {{ algset.title }}{% if algset.description %}
 {{ algset.description }}
 {% endif %}
-|Algorithm|Case|
-|---|---|{% assign d = depth | plus: 1 | at_most: 6 %}{% assign il = algset.imageLink | default: imageLink %}{% for alg in algset.algs %}{%- include 'algsetmd.liquid', algset: alg, depth: d, useBr: useBr, imageLink: il -%}{% endfor %}
+|Case|Algorithm|
+|---|---|{% assign d = depth | plus: 1 | at_most: 6 %}{% assign il = algset.imageLink | default: imageLink %}{% for alg in algset.algs %}{%- include 'algsetmd.liquid', algset: alg, depth: d, useBr: useBr, imageLink: il, bold: bold -%}{% endfor %}
 {% elsif algset.first %}
-{% assign encoded = algset[0] | url_encode | replace: "'", "%2527" %}|![Case]({{ imageLink | replace: "$ALG", encoded }})|{% if useBr %}{{ algset | join: "<br>"}}|{% else %}{{ algset[0] }}{% for a in algset offset:1 %}
+{% assign encoded = algset[0] | url_encode | replace: "'", "%2527" %}|![Case]({{ imageLink | replace: "$ALG", encoded }})|{% if bold %}**{% endif %}{{ algset[0] }}{% if bold %}**{% endif %}{% if useBr %}{% assign size = algset | size %}{{ algset | slice: 1, size | join: "<br>"}}|{% else %}{% for a in algset offset:1 %}
 ||{{ a }}|{% endfor %}{% endif %}{% else %}
-{% assign encoded = algset | url_encode | replace: "'", "%2527" %}|![Case]({{ imageLink | replace: "$ALG", encoded }})|{{ algset }}|{% endif %}
+{% assign encoded = algset | url_encode | replace: "'", "%2527" %}|![Case]({{ imageLink | replace: "$ALG", encoded }})|{% if bold %}**{% endif %}{{ algset }}{% if bold %}**{% endif %}|{% endif %}
