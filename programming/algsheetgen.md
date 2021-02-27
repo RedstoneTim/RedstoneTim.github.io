@@ -3,83 +3,55 @@ title: AlgSheetGen
 ---
 A small JS program for generating alg sheets in Markdown.
 
-## Input
-<textarea id="input" oninput="generate(value);" cols=80 rows=30></textarea>
+<script src="/assets/js/jsoneditor.js"></script>
+<script src="/assets/js/liquid.browser.min.js"></script>
 
-## Output
-<pre id="output"></pre>
+<div id="editor">
+</div>
+
+<br>
+
+<button onclick="document.getElementById('outputJSON').value = JSON.stringify(getJSON());">Generate</button>
+<input type="text" id="outputJSON" placeholder="JSON Output" onchange="editor.setValue(JSON.parse(value));">
+<button onclick="copyToClipboard('outputJSON');">Copy to clipboard</button>
+
+<br><br>
+
+<select id="converter" onchange="convert(value);">
+  <option value="md.liquid">Markdown</option>
+  <option value="md_br.liquid">Markdown (&lt;br&gt; support)</option>
+</select>
+<button onclick="copyToClipboard('outputMarkup');">Copy to clipboard</button>
+<br>
+<textarea id="outputMarkup" placeholder="Markup Output" cols=50 rows=25 readonly></textarea>
 
 <script>
-function genAlgTable(caseLink, alg, name, depth, algSeparator, lines) {
-  if(depth <= 6) {
-    console.log(alg);
-    if(name && ((typeof alg) == "object")) {
-	  lines.push("");
-	  lines.push("#".repeat(depth) + " " + name);
-	  var i = 0;
-	  if(Array.isArray(alg)) {
-	    const len = alg.length;
-	    if(len > 0) {
-		  lines.push("|Case|Algorithm|");
-	      lines.push("|---|---|")
-	      for(; i < len; i++) {
-		    genAlgTable(caseLink, alg[i], undefined, depth + 1, algSeparator, lines);
-		  }
-		}
-	  } else {
-	    const keys = Object.keys(alg);
-	    const len = keys.length;
-	    for(; i < len; i++){
-	      const key = keys[i];
-          genAlgTable(caseLink, alg[key], key, depth + 1, algSeparator, lines);
-        }
-	  }
-	} else if (Array.isArray(alg)){
-	  lines.push(["|![](", caseLink.replace("$ALG", encodeURIComponent(alg[0])), ")|", alg.join(algSeparator), "|"].join(""));
-	} else {
-	   lines.push(["|![](", caseLink.replace("$ALG", encodeURIComponent(alg)), ")|", alg, "|"].join(""));
-	}
-  }
+const editor = new JSONEditor(document.getElementById("editor"), {
+schema: {title:"Algorithm Sheet",type:"object",required:["title"],definitions:{algset:{type:"object",title:"Subset",properties:{title:{type:"string",title:"Name", default:"Name"},description:{type:"string",title:"Description"},imageLink:{type:"string",title:"Image link"},algs:{type:"array",title:"Algs",items:{anyOf:[{type:"string",title:"Single algorithm"},{type:"array",title:"Multiple algorithms",items:{type:"string",title:"Single algorithm"}},{"$ref":"#/definitions/algset"}]}}},required:["title","algs"]}},properties:{title:{type:"string",title:"Title",default:"Title"},description:{type:"string",title:"Description"},imageLink:{type:"string",title:"Image link",default:"http://www.cubing.net/api/visualcube/?view=plan&fmt=svg&case=$ALG"},algs:{type:"array",title:"Algorithms",items:{"$ref":"#/definitions/algset"}},end:{type:"string",title:"End"},footer:{type:"string",title:"Footer"},author:{type:"string",title:"Author"}}},
+disable_edit_json: true,
+disable_properties: true,
+array_controls_top: true
+});
+
+function getJSON() {
+  return editor.getValue();
 }
 
-function generate(value) {
-  console.log("Input: " + value);
-  const json = JSON.parse(value);
-  var lines = [];
-  
-  if(json.title) {
-    lines.push("# " + json.title);
-  }
-  
-  if(json.description) {
-    lines.push(json.description);
-  }
-  
-  if(json.algs) {
-    const caseLink = json.caseLink ? json.caseLink : "http://www.cubing.net/api/visualcube/?view=plan&fmt=svg&case=$ALG";
-	const algSeparator = json.algSeparator ? json.algSeparator : "&#60;br&#62;";
-	const keys = Object.keys(json.algs);
-	var i = 0;
-	const len = keys.length;
-	for(; i < len; i++){
-	  const key = keys[i];
-      genAlgTable(caseLink, json.algs[key], key, 2, algSeparator, lines);
-    }
-  }
-  
-  if(json.end) {
-    lines.push(json.end);
-  }
-  
-  if(json.footer) {
-    lines.push("---");
-	if(json.author) {
-	  lines.push("By " + json.author);
-	}
-    lines.push(json.footer);
-  } else if(json.author) {
-    lines.push("---<br>By " + json.author);
-  }
-  document.getElementById("output").innerHTML = lines.join("<br>");
+function copyToClipboard(value) {
+  var copyText = document.getElementById(value);
+  copyText.select();
+  copyText.focus();
+  document.execCommand("copy");
+}
+
+function convert(file) {
+  (new liquidjs.Liquid({
+    cache: true,
+	root: ["templates/"]
+  })).renderFile(file, getJSON()).then(output => document.getElementById('outputMarkup').innerHTML = output);
 }
 </script>
+
+---
+
+Made using [JSON Editor](https://github.com/json-editor/json-editor) and [liquidjs](https://liquidjs.com/)

@@ -1,0 +1,11 @@
+# {{ title }}
+{% capture newLine %}
+{% endcapture %}
+{%- if description -%}{{ description }}{%- endif -%}
+{% for alg in algs %}{%- include 'algsetmd.liquid', algset: alg, depth: 2, useBr: false, imageLink: imageLink -%}
+{% endfor %}{% if end %}
+{{ end }}{{ newLine }}{% endif %}{% if footer or author %}
+---
+
+{% if footer %}{{ footer }}  {% endif %}
+{% if author %}By {{ author }}{% endif %}{% endif %}
