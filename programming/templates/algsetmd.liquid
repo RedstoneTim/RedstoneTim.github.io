@@ -6,6 +6,6 @@
 |Algorithm|Case|
 |---|---|{% assign d = depth | plus: 1 | at_most: 6 %}{% assign il = algset.imageLink | default: imageLink %}{% for alg in algset.algs %}{%- include 'algsetmd.liquid', algset: alg, depth: d, useBr: useBr, imageLink: il -%}{% endfor %}
 {% elsif algset.first %}
-|![Case]({{ imageLink | replace: "$ALG", algset[0] | replace: " ", "_" }})|{% if useBr %}{{ algset | join: "<br>"}}|{% else %}{{ algset[0] }}{% for a in algset offset:1 %}
+{% assign encoded = algset[0] | url_encode | replace: "'", "%2527" %}|![Case]({{ imageLink | replace: "$ALG", encoded }})|{% if useBr %}{{ algset | join: "<br>"}}|{% else %}{{ algset[0] }}{% for a in algset offset:1 %}
 ||{{ a }}|{% endfor %}{% endif %}{% else %}
-|![Case]({{ imageLink | replace: "$ALG", algset | replace: " ", "_" }})|{{ algset }}|{% endif %}
+{% assign encoded = algset | url_encode | replace: "'", "%2527" %}|![Case]({{ imageLink | replace: "$ALG", encoded }})|{{ algset }}|{% endif %}
