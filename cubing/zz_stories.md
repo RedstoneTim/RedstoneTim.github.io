@@ -140,6 +140,13 @@ Or else"
 "'If Jay and the best case scenario given a set of constraints. They normally include possible for humans
 -ZZ stories part 8"
 - yoruba
+
+"'They are launching an attack on NZ.'
+wait what"
+- me
+
+"probably from when we planned to send the fastest ZZers to the slowest countries to slowly invade the world rankings nation by nation"
+- fast solves aren't real
 ```
 
 # Sources
