@@ -12,6 +12,7 @@ This is a list of computer generated stories about the Rubik's Cube solving meth
 6. <https://pastebin.com/Gd1Xedmr>{:target="_blank"}
 7. <https://pastebin.com/imXUJJDW>{:target="_blank"} (better version: <https://pastebin.com/JmbYxGT8>{:target="_blank"})
 8. <https://pastebin.com/0dHm5yqS>{:target="_blank"} (better version: <https://pastebin.com/RH8g7SgD>{:target="_blank"})
+9. <https://rentry.co/zzstory9>{:target="_blank"}
 
 # Discord server
 [Invite link](https://discord.gg/w8SDHjF){:target="_blank"}
@@ -135,6 +136,10 @@ That on
 Fanfic website
 Or else"
 - Rouxviewer
+
+"'If Jay and the best case scenario given a set of constraints. They normally include possible for humans
+-ZZ stories part 8"
+- yoruba
 ```
 
 # Sources
@@ -158,5 +163,6 @@ Or else"
 * [HOW TO GET SUB 8 WITH ZZ](https://docs.google.com/document/d/1a7yqlGhfE2nESAuO-uNZvMEJpDW-sAiB_-NMTylEPJA){:target="_blank"} (Part 9 and higher)
 * [HOW TO GET SUB 12 WITH ZZ](https://docs.google.com/document/d/1raFgk1M5TReCsLo53r0XRQf98msxTTeOwnlzUJ7xDD0){:target="_blank"} (Part 9 and higher)
 * [The sub 10 curse](https://discord.com/channels/455707295205294081/689187319034544180/811879066340687893){:target="_blank"} (Part 9 and higher)
+* [Movecount statistics](https://discord.com/channels/455707295205294081/714831722122051645/816001987941236758){:target="_blank"} (Part 9 and higher)
 
 [Everything put together into one file](https://pastebin.com/gE8J93VQ){:target="_blank"}
