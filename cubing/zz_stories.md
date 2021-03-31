@@ -171,5 +171,6 @@ wait what"
 * [HOW TO GET SUB 12 WITH ZZ](https://docs.google.com/document/d/1raFgk1M5TReCsLo53r0XRQf98msxTTeOwnlzUJ7xDD0){:target="_blank"} (Part 9 and higher)
 * [The sub 10 curse](https://discord.com/channels/455707295205294081/689187319034544180/811879066340687893){:target="_blank"} (Part 9 and higher)
 * [Movecount statistics](https://discord.com/channels/455707295205294081/714831722122051645/816001987941236758){:target="_blank"} (Part 9 and higher)
+* [Story time](https://discord.com/channels/455707295205294081/455708462870167556/716368930058535033){:target="_blank"} (Part 10 and higher)
 
 [Everything put together into one file](https://pastebin.com/gE8J93VQ){:target="_blank"}
