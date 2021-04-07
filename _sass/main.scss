@@ -45,3 +45,16 @@ h3 {
 section {
 	margin: 50px;
 }
+
+a:link {
+	text-decoration: none;
+	color: #0645AD;
+}
+
+a:visited {
+	color: #0B0080;
+}
+
+a:hover, a:focus {
+	text-decoration: underline;
+}
