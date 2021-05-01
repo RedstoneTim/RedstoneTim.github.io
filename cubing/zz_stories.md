@@ -172,5 +172,7 @@ wait what"
 * [The sub 10 curse](https://discord.com/channels/455707295205294081/689187319034544180/811879066340687893){:target="_blank"} (Part 9 and higher)
 * [Movecount statistics](https://discord.com/channels/455707295205294081/714831722122051645/816001987941236758){:target="_blank"} (Part 9 and higher)
 * [Story time](https://discord.com/channels/455707295205294081/455708462870167556/716368930058535033){:target="_blank"} (Part 10 and higher)
+* [Dumb CFOP plebs](https://discord.com/channels/455707295205294081/455708462870167556/830191573345107978){:target="_blank"} (Part 10 and higher)
+* [OPA gangnam style](https://discord.com/channels/455707295205294081/478546434686451715/829936870825525259){:target="_blank"} (Part 10 and higher)
 
-[Everything put together into one file](https://pastebin.com/gE8J93VQ){:target="_blank"}
+[Everything put together into one file](https://rentry.co/zzstorysources){:target="_blank"}
