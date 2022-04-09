@@ -1,7 +1,7 @@
 ---
 title: ZZ-Line
 ---
-**ZZ-Line** is a 3x3 method which I proposed in February 2020 in a [post on the SpeedSolving Forums](https://www.speedsolving.com/threads/the-new-method-substep-concept-idea-thread.40975/page-281#post-1348007){:target="_blank"}.  
+**ZZ-Line** is a 3x3 method which I proposed in February 2020 in a [post on the SpeedSolving Forums](https://www.speedsolving.com/threads/the-new-method-substep-concept-idea-thread.40975/post-1348007){:target="_blank"}.  
 It is a joke variant of [ZZ](https://www.speedsolving.com/wiki/index.php/ZZ_method){:target="_blank"}.
 
 # Steps
