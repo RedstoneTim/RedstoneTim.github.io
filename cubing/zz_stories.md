@@ -174,5 +174,6 @@ wait what"
 * [Story time](https://discord.com/channels/455707295205294081/455708462870167556/716368930058535033){:target="_blank"} (Part 10 and higher)
 * [Dumb CFOP plebs](https://discord.com/channels/455707295205294081/455708462870167556/830191573345107978){:target="_blank"} (Part 10 and higher)
 * [OPA gangnam style](https://discord.com/channels/455707295205294081/478546434686451715/829936870825525259){:target="_blank"} (Part 10 and higher)
+* [Everything is Petrus](https://cdn.discordapp.com/attachments/455708462870167556/860873736789950474/everything_is_petrus.png){:target="_blank"} (Part 10 and higher)
 
 [Everything put together into one file](https://rentry.co/zzstorysources){:target="_blank"}

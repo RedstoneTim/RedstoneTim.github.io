@@ -10,12 +10,8 @@ defaults:
     values:
       layout: "default"
       author: "RedstoneTim"
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
       
 plugins:
   - jekyll-optional-front-matter
+
+markdown: kramdown
