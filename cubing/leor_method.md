@@ -73,6 +73,7 @@ The following list is a hopefully comprehensive but still incomplete selection o
   - [A large compilation of all sorts of algorithms, including ZBLL, by the ZZ Method Solvers](https://docs.google.com/document/d/14bZro8noKzY1nKKTHRNgr8pYKJLxZibwdln1BykLSvU){:target="_blank"}
   - [Roman Strakhov's famous ZBLL trainer](https://bestsiteever.ru/zbll/){:target="_blank"}
   - [Tao Yu's awesome trainer for lots of algorithm sets, including ZBLL](https://tao-yu.github.io/Alg-Trainer/){:target="_blank"}
+  - [Nathaniel Gee's ZBLL learning video](https://youtu.be/fyl7sCzHbAo){:target="_blank"}
   - [Nathaniel Gee's ZBLL recognition video](https://youtu.be/M3Au4mIpilk){:target="_blank"}
   - [Chris Tran's ZBLL recognition video](https://youtu.be/JyW1dm6mG-s){:target="_blank"}
 
