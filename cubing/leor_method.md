@@ -92,6 +92,7 @@ The following list is a hopefully comprehensive but still incomplete selection o
 * [LEOR on the SpeedSolving Wiki (including 4x4 method and variants)](https://www.speedsolving.com/wiki/index.php/LEOR){:target="_blank"}
 * [LEOR discord](https://discord.gg/pRaB9J6Uqj){:target="_blank"}
 * [LEOR method solves playlist](https://youtube.com/playlist?list=PLOmmU12qr6nEvQG4_j5KHjeCtbfMtIAu_){:target="_blank"}
+* [LEOR example solve game on the SpeedSolving forums](https://www.speedsolving.com/threads/leor-example-solve-game.76479/){:target="_blank"}
 
 # References
 [^1]: <https://www.speedsolving.com/threads/roux-breaker-the-yruru-method.77201/post-1367918>{:target="_blank"}
