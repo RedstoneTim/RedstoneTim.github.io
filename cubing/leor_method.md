@@ -2,7 +2,7 @@
 title: LEOR Method
 ---
 The **LEOR Method** is a 3x3 method which combines aspects of [Roux](https://www.speedsolving.com/wiki/index.php/Roux_method){:target="_blank"} and [ZZ](https://www.speedsolving.com/wiki/index.php/ZZ_method){:target="_blank"}, although it seems to be described best as a variant of [Petrus](https://www.speedsolving.com/wiki/index.php/Petrus_Method){:target="_blank"}.  
-It was first conceived of by Arc and Pyjam[^1], although it has its precursors in the works of Joseph Briggs and Noah Arthurs[^2].
+It was first conceived of by Arc and Pyjam[^1], although it has its precursors in the works of Joseph Briggs and Noa Arthurs[^2].
 
 # Steps
 
